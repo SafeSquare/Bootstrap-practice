@@ -4,10 +4,11 @@
   box-sizing: border-box;
 }
 
-#top-hero-section, #happy-clients, #video-section {
+#happy-clients {
   background-color: aliceblue;
 }
 
 #brands-section img {
   width: 80px;
 }
+
