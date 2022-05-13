@@ -4,11 +4,37 @@
   box-sizing: border-box;
 }
 
-#happy-clients {
-  background-color: aliceblue;
+.text-primary {
+  color: #124265 !important;
+}
+
+.btn-primary {
+  background-color: #2487ce !important;
+}
+
+#top-hero-section {
+  background: url(../img/hero-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#count-section, #brands-section {
+  background: #f8fbfb;
 }
 
 #brands-section img {
-  width: 80px;
+  width: 60px;
+  filter:grayscale(100%);
 }
+
+#brands-section img:hover {
+  width: 80px;
+  filter:grayscale(0);
+  scale: (1.15);
+}
+
+
+
+
 
