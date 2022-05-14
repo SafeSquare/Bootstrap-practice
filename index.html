@@ -8,6 +8,10 @@
   <title>OnePage Bootsrapmade.com</title>
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/style.css" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+  />
 </head>
 
 <body>
@@ -281,7 +285,100 @@
       </div>
   </div>
 
+  <div class="slider-section">
+    <div class="container text-center">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper py-5">
+          <div class="swiper-slide">
+            <div class="testimonial-box">
+              <div class="testimony">
+                <p>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. 
+                </p>
+              </div>
+              <div class="testimony-person">
+                <img src="img/testimonials-1.jpg" alt="Picture 1" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-box">
+              <div class="testimony">
+                <p>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. 
+                </p>
+              </div>
+              <div class="testimony-person">
+                <img src="img/testimonials-1.jpg" alt="Picture 1" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide"> 
+            <div class="testimonial-box">
+              <div class="testimony">
+                <p>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. 
+                </p>
+              </div>
+              <div class="testimony-person">
+                <img src="img/testimonials-1.jpg" alt="Picture 1" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-box">
+              <div class="testimony">
+                <p>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. 
+                </p>
+              </div>
+              <div class="testimony-person">
+                <img src="img/testimonials-1.jpg" alt="Picture 1" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-box">
+              <div class="testimony">
+                <p>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. 
+                </p>
+              </div>
+              <div class="testimony-person">
+                <img src="img/testimonials-1.jpg" alt="Picture 1" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="testimonial-box">
+              <div class="testimony">
+                <p>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid. 
+                </p>
+              </div>
+              <div class="testimony-person">
+                <img src="img/testimonials-1.jpg" alt="Picture 1" class="img-fluid">
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>  
+
+
   <script src="js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
 </body>
 
 </html>
