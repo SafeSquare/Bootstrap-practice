@@ -8,7 +8,11 @@
   color: #124265 !important;
 }
 
-.btn-primary {
+.text-secondary {
+  color: #919191 !important;
+}
+
+.btn-primary, .action-call {
   background-color: #2487ce !important;
 }
 
@@ -19,7 +23,7 @@
   background-attachment: fixed;
 }
 
-#count-section, #brands-section {
+#count-section, #brands-section, #sevices-section {
   background: #f8fbfb;
 }
 
@@ -39,9 +43,6 @@
   height: 100px;
   border-radius: 50px;
 }
-
-
-
 
 
 
