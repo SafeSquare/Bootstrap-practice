@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -17,13 +18,13 @@
 }
 
 #top-hero-section {
-  background: /*linear-gradient(45deg, rgba(255, 200, 200, 0.8)),*/ url(../img/hero-bg.jpg) no-repeat;
+  background: url(../img/hero-bg.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
-#count-section, #brands-section, #sevices-section {
+#count-section, #brands-section, #sevices-section, .slider-section .card-box {
   background: #f8fbfb;
 }
 
@@ -44,8 +45,17 @@
   border-radius: 50px;
 }
 
-.slider-section .card-box {
-  background-color: #f3f9fd;
+.action-call button:hover {
+  color: #2487ce !important; 
+}
+
+.action-call h3, .slider-section h5 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
+}
+
+.slider-section p {
+  font-style: italic;
 }
 
 
