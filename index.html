@@ -8,7 +8,6 @@
   <title>OnePage Bootsrapmade.com</title>
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="script.jsx">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> 
 </head>
 
@@ -581,7 +580,7 @@
   <script src="https://kit.fontawesome.com/86298f4f11.js" crossorigin="anonymous"></script>
   <script>
     var swiper = new Swiper(".mySwiper", {
-      slidesPerView: "3",
+      // slidesPerView: "3",
       spaceBetween: 30,
       autoplay: {
           delay: 4000,
@@ -591,6 +590,20 @@
         el: ".swiper-pagination",
         clickable: true,
       },
+      breakpoints: {
+          426: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        },
     });
   </script> 
   </script>
